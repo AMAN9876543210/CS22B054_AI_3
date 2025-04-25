@@ -7,23 +7,34 @@ This project implements AI agents for the [SlimeVolleyGym](https://github.com/ha
 ## 📁 Project Structure
 
 ```
-CS22B054_AI_3/                           
-├── __pycache__/                                        # Compiled Python cache
-├── algorithm/                                           # Folder containing algorithm-related code
-│   ├── __pycache__/                                     # Compiled Python cache for algorithm module
-│   ├── alphabeta.py                                     # AlphaBeta pruning agent logic
-│   ├── minimax.py                                       # Minimax agent logic
-│   ├── random_agent.py                                  # Baseline random agent
-│   └── running_utils.py                                 # Utility functions related to running the agents
-├── slimevolleygym/                                      # SlimeVolley environment
-├── run_alphabeta.py                                     # Script to run AlphaBeta agent
-├── run_minimax.py                                       # Script to run Minimax agent
-├── result.py                                            # Script to evaluate and collect results
-├── alphabeta_dynamic_fps.mp4                            # Output video for AlphaBeta agent
-├── minimax_dynamic_fps.mp4                              # Output video for Minimax agent
-├── requirements.txt                                     # Project dependencies
-├── LICENSE                                              # License information
-└── README.md                                            # Readme file
+
+__pycache__/                                                   # Compiled Python cache files (automatically generated)
+
+algorithm/                                                     # Folder containing AI agent logic and utilities
+  ├── alphabeta.py                                             # Contains the implementation of the AlphaBeta pruning algorithm
+  ├── minimax.py                                               # Contains the implementation of the Minimax algorithm
+  ├── random_agent.py                                          # Contains the baseline random agent
+  └── running_utils.py                                         # Contains utility functions for running the agents
+
+slimevolleygym/                                                # Custom gym environment for the SlimeVolley game
+
+.gitignore                                                     # Specifies which files and folders Git should ignore (e.g., virtual environments, pycache)
+
+LICENSE                                                        # License information for the project
+
+README.md                                                      # The README file with information about the project, setup, and usage
+
+alphabeta_dynamic_fps.mp4                                      # Output video showing the performance of the AlphaBeta agent
+
+minimax_dynamic_fps.mp4                                        # Output video showing the performance of the Minimax agent
+
+requirements.txt                                               # List of project dependencies for setting up the environment
+
+result.py                                                      # Script to evaluate the performance of the AI agents
+
+run_alphabeta.py                                               # Script to run the AlphaBeta agent in the game
+
+run_minimax.py                                                 # Script to run the Minimax agent in the game
 
 
 ```
