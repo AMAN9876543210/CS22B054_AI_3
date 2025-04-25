@@ -7,9 +7,8 @@ This project implements AI agents for the [SlimeVolleyGym](https://github.com/ha
 ## 📁 Project Structure
 
 ```
-CS22B054_AI_3/ ├── .venv/                               # Python virtual environment
+CS22B054_AI_3/                           
 ├── pycache/                                            # Compiled Python cache
-├── eval_agents.cpython-38.pyc                          # Compiled bytecode file
 ├── algorithm/ │ ├── pycache/                           # Compiled Python cache for algorithm module
 │ ├── alphabeta.py                                      # AlphaBeta pruning agent logic
 │ ├── eval_utils.py                                     # Evaluation utility functions
@@ -30,7 +29,7 @@ CS22B054_AI_3/ ├── .venv/                               # Python virtual e
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/CS22B054_AI_3.git
+git clone git@github.com:AMAN9876543210/CS22B054_AI_3.git
 cd CS22B054_AI_3
 ```
 ### 2. Set up virtual environment
