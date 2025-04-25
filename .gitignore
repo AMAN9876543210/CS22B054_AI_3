@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# VSCode (optional)
+.vscode/
