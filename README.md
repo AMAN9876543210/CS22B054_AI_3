@@ -16,7 +16,6 @@ CS22B054_AI_3/ ├── .venv/                               # Python virtual e
 │ ├── minimax.py                                        # Minimax agent logic
 │ └── random_agent.py                                   # Baseline random agent
 ├── slimevolleygym/                                     # SlimeVolley environment
-├── final.py                                            # Runs both agents and generates videos
 ├── run_alphabeta.py                                    # Script to run AlphaBeta agent
 ├── run_minimax.py                                      # Script to run Minimax agent
 ├── result.py                                           # Script to evaluate and collect results
