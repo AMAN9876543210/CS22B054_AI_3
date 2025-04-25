@@ -50,8 +50,25 @@ cd CS22B054_AI_3
 Run the following command to create a virtual environment:
 
 ```bash
-python3 -m venv .venv
+
+
+# Add the deadsnakes PPA for newer Python versions
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+
+# Install Python 3.10 and the venv module
+sudo apt install -y python3.10 python3.10-venv
+
+# Create a virtual environment using Python 3.10
+python3.10 -m venv .venv
+
+# Activate the virtual environment
 source .venv/bin/activate
+
+# Upgrade pip and setuptools
+pip install --upgrade pip setuptools
+
+
 ```
 
 ### 2. Install dependencies
