@@ -74,8 +74,8 @@ source .venv/bin/activate
 Install the required dependencies using pip:
 
 ```bash
-# Upgrade pip and setuptools
-pip install --upgrade pip setuptools
+
+pip install --upgrade pip setuptools           # Upgrade pip and setuptools
 pip install -r requirements.txt
 ```
 ## 🕹️ Running the Game
