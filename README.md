@@ -81,7 +81,7 @@ Click the above links to view the performance of Minimax and AlphaBeta agents in
 To run the game, execute the following command:
 
 ```bash
-python3 final.py
+python3  result.py
 ```
 ### This script will:
 - Run both **Minimax vs RandomAgent** and **AlphaBeta vs RandomAgent**.
