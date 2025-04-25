@@ -65,8 +65,7 @@ python3.10 -m venv .venv
 # Activate the virtual environment
 source .venv/bin/activate
 
-# Upgrade pip and setuptools
-pip install --upgrade pip setuptools
+
 
 
 ```
@@ -75,6 +74,8 @@ pip install --upgrade pip setuptools
 Install the required dependencies using pip:
 
 ```bash
+# Upgrade pip and setuptools
+pip install --upgrade pip setuptools
 pip install -r requirements.txt
 ```
 ## 🕹️ Running the Game
