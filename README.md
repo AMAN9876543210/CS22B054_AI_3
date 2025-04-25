@@ -8,21 +8,23 @@ This project implements AI agents for the [SlimeVolleyGym](https://github.com/ha
 
 ```
 CS22B054_AI_3/                           
-├── pycache/                                            # Compiled Python cache
-├── algorithm/ │ ├── pycache/                           # Compiled Python cache for algorithm module
-│ ├── alphabeta.py                                      # AlphaBeta pruning agent logic
-│ ├── eval_utils.py                                     # Evaluation utility functions
-│ ├── minimax.py                                        # Minimax agent logic
-│ └── random_agent.py                                   # Baseline random agent
-├── slimevolleygym/                                     # SlimeVolley environment
-├── run_alphabeta.py                                    # Script to run AlphaBeta agent
-├── run_minimax.py                                      # Script to run Minimax agent
-├── result.py                                           # Script to evaluate and collect results
-├── alphabeta_dynamic_fps.mp4                           # Output video for alphabeta agent
-├── minimax_dynamic_fps.mp4                             # Output video for minimax agent
-├── requirements.txt                                    # Project dependencies
-├── LICENSE                                             # License information
-└── README.md                                           # Readme file
+├── __pycache__/                                        # Compiled Python cache
+├── algorithm/                                           # Folder containing algorithm-related code
+│   ├── __pycache__/                                     # Compiled Python cache for algorithm module
+│   ├── alphabeta.py                                     # AlphaBeta pruning agent logic
+│   ├── minimax.py                                       # Minimax agent logic
+│   ├── random_agent.py                                  # Baseline random agent
+│   └── running_utils.py                                 # Utility functions related to running the agents
+├── slimevolleygym/                                      # SlimeVolley environment
+├── run_alphabeta.py                                     # Script to run AlphaBeta agent
+├── run_minimax.py                                       # Script to run Minimax agent
+├── result.py                                            # Script to evaluate and collect results
+├── alphabeta_dynamic_fps.mp4                            # Output video for AlphaBeta agent
+├── minimax_dynamic_fps.mp4                              # Output video for Minimax agent
+├── requirements.txt                                     # Project dependencies
+├── LICENSE                                              # License information
+└── README.md                                            # Readme file
+
 
 ```
 ## 🚀 Installation
@@ -81,7 +83,7 @@ Click the above links to view the performance of Minimax and AlphaBeta agents in
 To run the game, execute the following command:
 
 ```bash
-python3  result.py
+python3 result.py
 ```
 ### This script will:
 - Run both **Minimax vs RandomAgent** and **AlphaBeta vs RandomAgent**.
@@ -142,6 +144,6 @@ pip install -r requirements.txt
 ```
 ## 🙋 Author
 
-**Aman Anand**
+**Aman Anand**  
 Roll No: CS22B054
 
