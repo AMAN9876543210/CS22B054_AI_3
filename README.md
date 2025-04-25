@@ -50,6 +50,18 @@ Install the required dependencies using pip:
 pip install -r requirements.txt
 ```
 
+## 🎮🤖 AI Agents: Minimax vs AlphaBeta
+
+This project includes AI agents for playing a game using **Minimax** and **AlphaBeta** algorithms. The agents are evaluated by playing the game and generating videos of their performances.
+
+### Watch the AI Agents in Action:
+
+- [Minimax vs RandomAgent](https://github.com/AMAN9876543210/CS22B054_AI_3/blob/main/minimax_dynamic_fps.mp4)
+- [AlphaBeta vs RandomAgent](https://github.com/AMAN9876543210/CS22B054_AI_3/blob/main/alphabeta_dynamic_fps.mp4)
+
+Click the above links to view the performance of Minimax and AlphaBeta agents in the game.
+
+
 ## 🧠 Agents
 
 ### Minimax
