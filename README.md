@@ -77,6 +77,18 @@ Install the required dependencies using pip:
 ```bash
 pip install -r requirements.txt
 ```
+## 🕹️ Running the Game
+
+To run the game, execute the following command:
+
+```bash
+python3 result.py
+```
+### This script will:
+- Run both **Minimax vs RandomAgent** and **AlphaBeta vs RandomAgent**.
+- Render and save gameplay videos in `.mp4` format.
+- Display scores and timing statistics for each match.
+
 
 ## 🎮🤖 AI Agents: Minimax vs AlphaBeta
 
@@ -106,17 +118,7 @@ Click the above links to view the performance of Minimax and AlphaBeta agents in
 - Acts as a baseline opponent.
 - Picks random valid actions.
 
-## 🕹️ Running the Game
 
-To run the game, execute the following command:
-
-```bash
-python3 result.py
-```
-### This script will:
-- Run both **Minimax vs RandomAgent** and **AlphaBeta vs RandomAgent**.
-- Render and save gameplay videos in `.mp4` format.
-- Display scores and timing statistics for each match.
 
 ## 🏁 Match Results
 Each agent plays for a fixed number of frames (100 steps) and the results are rendered with score overlays and winner declaration.
