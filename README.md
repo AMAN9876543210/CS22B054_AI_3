@@ -53,8 +53,10 @@ Run the following command to create a virtual environment:
 
 
 # Add the deadsnakes PPA for newer Python versions
+sudo apt install python3
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt update
+
 
 # Install Python 3.10 and the venv module
 sudo apt install -y python3.10 python3.10-venv
